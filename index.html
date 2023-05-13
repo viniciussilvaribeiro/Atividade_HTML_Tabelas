@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <h2>Tabela de Filmes</h2>
+    <table>
+        <caption>Filmes</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Diretor</th>
+                <th>Ano de Lançamento</th>
+                <th>Gênero</th>
+                <th>Classificação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Beau Tem Medo</td>
+                <td>Ari Aster</td>
+                <td class="data">2023</td>
+                <td>Terror / Drama</td>
+                <td class="classificacao">IMD: 7,2/10</td>
+            </tr>
+            <tr>
+                <td>Avatar 2: O Caminho da Água</td>
+                <td>James Cameron</td>
+                <td class="data">2023</td>
+                <td>Aventura / Fantasia</td>
+                <td class="classificacao">IMD: 7,7/10</td>
+            </tr>
+            <tr>
+                <td>Mad Max: Estrada da Fúria</td>
+                <td>George Miller</td>
+                <td class="data">2015</td>
+                <td>Ação / Ficção Científica</td>
+                <td class="classificacao">IMD: 8,1/10</td>
+            </tr>
+            <tr>
+                <td>Godzilla II: O Rei dos Monstros</td>
+                <td>Michael Dougherty</td>
+                <td class="data">2019</td>
+                <td>Ação / Fantasia</td>
+                <td class="classificacao">IMD: 6,0/10</td>
+            </tr>
+            <tr>
+                <td>Cidade de Deus</td>
+                <td>Fernando Meirelles</td>
+                <td class="data">2002</td>
+                <td>Drama / Policial</td>
+                <td class="classificacao">IMD: 8,6/10</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Tabela de Alimentos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Alimento</th>
+                <th>Calorias</th>
+                <th>Proteínas</th>
+                <th>Carboidratos</th>
+                <th>Gorduras</th>
+            </tr>
+            <tr>
+                <th>kcal</th>
+                <th>g</th>
+                <th>g</th>
+                <th>g</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maçã</td>
+                <td class="valores_alimentos">52</td>
+                <td class="valores_alimentos">0,3</td>
+                <td class="valores_alimentos">13,8</td>
+                <td class="valores_alimentos">0,2</td>
+            </tr>
+            <tr>
+                <td>cenoura</td>
+                <td class="valores_alimentos">41</td>
+                <td class="valores_alimentos">0,9</td>
+                <td class="valores_alimentos">9,6</td>
+                <td class="valores_alimentos">0,2</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Tabela de Dados</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2">Dados Pessoais</th>
+                <th colspan="3">Informações de Contato</th>
+            </tr>
+            <tr>
+                <th>Telefone</th>
+                <th>E-mail</th>
+                <th>Endereço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Nome Completo</td>
+                <td rowspan="3">Idade</td>
+                <td>(11) 1234-5678</td>
+                <td>exemplo@exemplo.com</td>
+                <td rowspan="3">Rua Exemplo, 123</td>
+            </tr>
+            <tr>
+                <td>(11) 9876-5432</td>
+                <td>exemplo2@exemplo.com</td>
+            </tr>
+            <tr>
+                <td>(11) 4567-8901</td>
+                <td>exempl3@exemplo.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Tabela de Pessoas</h2>
+    <table class="pessoas">
+        <thead>
+            <tr>
+                <th class="pessoas">Nome</th>
+                <th class="pessoas">Sobrenome</th>
+                <th class="pessoas">Idade</th>
+                <th class="pessoas">Altura</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="pessoas">João</td>
+                <td class="pessoas">Silva</td>
+                <td class="pessoas_num">25</td>
+                <td class="pessoas_altura1">1,90m</td>
+            </tr>
+            <tr>
+                <td class="pessoas">Lucas</td>
+                <td class="pessoas">Pereira</td>
+                <td class="pessoas_num">35</td>
+                <td class="pessoas_altura2">1,70m</td>
+            </tr>
+            <tr>
+                <td class="pessoas">Camila</td>
+                <td class="pessoas">Santos</td>
+                <td class="pessoas_num">28</td>
+                <td class="pessoas_altura3">1,50m</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Tabela de Dama</h2>
+    <table class="dama">
+        <tr>
+            <td class="impar"></td>
+            <td class="preta"></td>
+            <td class="impar"></td>
+            <td class="preta"></td>
+            <td class="impar"></td>
+            <td class="preta"></td>
+            <td class="impar"></td>
+            <td class="preta"></td>
+        </tr>
+        <tr>
+            <td class="preta"></td>
+            <td class="par"></td>
+            <td class="preta"></td>
+            <td class="par"></td>
+            <td class="preta"></td>
+            <td class="par"></td>
+            <td class="preta"></td>
+            <td class="par"></td>
+        </tr>
+        <tr>
+            <td class="impar"></td>
+            <td class="preta"></td>
+            <td class="impar"></td>
+            <td class="preta"></td>
+            <td class="impar"></td>
+            <td class="preta"></td>
+            <td class="impar"></td>
+            <td class="preta"></td>
+        </tr>
+        <tr>
+            <td class="par"></td>
+            <td class="par"></td>
+            <td class="par"></td>
+            <td class="par"></td>
+            <td class="par"></td>
+            <td class="par"></td>
+            <td class="par"></td>
+            <td class="par"></td>
+        </tr>
+        <tr>
+            <td class="impar"></td>
+            <td class="impar"></td>
+            <td class="impar"></td>
+            <td class="impar"></td>
+            <td class="impar"></td>
+            <td class="impar"></td>
+            <td class="impar"></td>
+            <td class="impar"></td>
+        </tr>
+        <tr>
+            <td class="vermelha"></td>
+            <td class="par"></td>
+            <td class="vermelha"></td>
+            <td class="par"></td>
+            <td class="vermelha"></td>
+            <td class="par"></td>
+            <td class="vermelha"></td>
+            <td class="par"></td>
+        </tr>
+        <tr>
+            <td class="impar"></td>
+            <td class="vermelha"></td>
+            <td class="impar"></td>
+            <td class="vermelha"></td>
+            <td class="impar"></td>
+            <td class="vermelha"></td>
+            <td class="impar"></td>
+            <td class="vermelha"></td>
+        </tr>
+        <tr>
+            <td class="vermelha"></td>
+            <td class="par"></td>
+            <td class="vermelha"></td>
+            <td class="par"></td>
+            <td class="vermelha"></td>
+            <td class="par"></td>
+            <td class="vermelha"></td>
+            <td class="par"></td>
+        </tr>
+    </table>
+    <h2>Tabela de 10 Linhas</h2>
+    <table>
+        <thead class="linhas">
+            <tr>
+                <th>Classe</th>
+                <th>Atributo Chave</th>
+                <th>Foco</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="linhas">
+                <td>Bárbaro</td>
+                <td>Força</td>
+                <td>Bater / Tankar</td>
+                <td>Marcial</td>
+            </tr>
+            <tr class="linhas">
+                <td>Mago</td>
+                <td>Inteligência</td>
+                <td>Variável</td>
+                <td>Conjurador</td>
+            </tr>
+            <tr class="linhas">
+                <td>Patrulheiro</td>
+                <td>Força / Destreza</td>
+                <td>Dano</td>
+                <td>Marcial</td>
+            </tr>
+            <tr class="linhas">
+                <td>Paladino</td>
+                <td>Força</td>
+                <td>Dano / Suporte</td>
+                <td>Marcial</td>
+            </tr>
+            <tr class="linhas">
+                <td>Clérigo</td>
+                <td>Sabedoria</td>
+                <td>Suporte</td>
+                <td>Conjurador</td>
+            </tr>
+            <tr class="linhas">
+                <td>Guerreiro</td>
+                <td>Força / Destreza</td>
+                <td>Dano</td>
+                <td>Marcial</td>
+            </tr>
+            <tr class="linhas">
+                <td>Monge</td>
+                <td>Força / Destreza</td>
+                <td>Dano / Tankar</td>
+                <td>Marcial</td>
+            </tr>
+            <tr class="linhas">
+                <td>Taumaturgo</td>
+                <td>Carisma</td>
+                <td>Suporte / Dano</td>
+                <td>Conjurador</td>
+            </tr>
+            <tr class="linhas">
+                <td>Ladino</td>
+                <td>Destreza</td>
+                <td>Dano / Utilidade</td>
+                <td>Marcial</td>
+            </tr>
+            <tr class="linhas">
+                <td>Alquimista</td>
+                <td>Inteligência</td>
+                <td>Variável</td>
+                <td>Alquímico</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

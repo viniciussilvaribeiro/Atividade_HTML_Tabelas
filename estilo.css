@@ -1,0 +1,107 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+td.data {
+    text-align: center;
+}
+
+td.classificacao {
+    text-align: center;
+}
+
+td.valores_alimentos {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.pessoas {
+    vertical-align: middle;
+}
+
+td.pessoas_altura1 {
+    vertical-align: top;
+}
+
+td.pessoas_altura2 {
+    vertical-align: middle;
+}
+
+td.pessoas_altura3 {
+    vertical-align: bottom;
+}
+
+th.pessoas {
+    height: 60px;
+}
+
+td.pessoas_num {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.pessoas {
+    height: 290px;
+    width: 400px;
+}
+
+table.dama {
+    height: 500px;
+    width: 500px;
+}
+
+td.impar:nth-child(even) {
+    background-color: black;
+    max-width: 62px;
+    max-height: 62px;
+}
+
+td.impar:nth-child(odd) {
+    background-color: white;
+    max-width: 62px;
+    max-height: 62px;
+}
+
+td.par:nth-child(even) {
+    background-color: white;
+    max-width: 62px;
+    max-height: 62px;
+}
+
+td.par:nth-child(odd) {
+    background-color: black;
+    max-width: 62px;
+    max-height: 62px;
+}
+
+td.vermelha {
+    background-image: url(img/dama_peca_vermelha-removebg-preview.png);
+    background-color: black;
+    background-size: 62px 62px;
+}
+
+td.preta {
+    background-image: url(img/dama_pecas_preta-removebg-preview.png);
+    background-color: black;
+    background-size: 62px 62px;
+}
+
+thead.linhas {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+tr.linhas:nth-child(even) {
+    background-color: rgb(221, 216, 216);
+}
+
+tr.linhas:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
